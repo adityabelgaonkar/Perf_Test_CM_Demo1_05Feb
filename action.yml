@@ -23,5 +23,5 @@ runs:
   - "-t"
   - "${{ inputs.test-plan-path }}"
   - "-e"
-  - "${{ inputs.test-plan-path }}"
+  - "./TestPlans"
   - "${{ inputs.args }}"
