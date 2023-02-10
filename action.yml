@@ -23,6 +23,5 @@ runs:
   - "-t"
   - "${{ inputs.test-plan-path }}"
   - "-e"
-  - "-o"
   - "result.jtl"
   - "${{ inputs.args }}"
