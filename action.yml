@@ -22,6 +22,7 @@ runs:
   - "-n"
   - "-t"
   - "${{ inputs.test-plan-path }}"
-  - "-l"
+  - "-e"
+  - "-o"
   - "result.jtl"
   - "${{ inputs.args }}"
