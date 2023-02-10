@@ -23,7 +23,7 @@ runs:
   - "-t"
   - "${{ inputs.test-plan-path }}"
   - "-e -o"
-  - "./TestPlans"
+  - "./TestPlan1"
   - "-l"
   - "result.jtl"
   - "${{ inputs.args }}"
