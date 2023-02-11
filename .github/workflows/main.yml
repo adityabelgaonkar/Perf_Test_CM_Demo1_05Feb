@@ -7,6 +7,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         
+      - name: CreateD
+        run: |
+           mkdir $./TestPlan2
+        
       - name: Run JMeter Tests
         uses: ./
         with:
