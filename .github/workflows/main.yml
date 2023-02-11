@@ -9,7 +9,7 @@ jobs:
         
       - name: CreateD
         run: |
-           mkdir $./TestPlan2
+           mkdir $./TestPlan1
         
       - name: Run JMeter Tests
         uses: ./
