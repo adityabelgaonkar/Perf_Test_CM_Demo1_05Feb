@@ -19,12 +19,11 @@ runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-  - "mkdir ./TestPlan1/OK.jmx
   - "-n"
   - "-t"
   - "${{ inputs.test-plan-path }}"
   - "-e -o"
-  - "./TestPlan1/OK.jmx"
+  - "./TestPlan1"
   - "-l"
   - "result.jtl"
   - "${{ inputs.args }}"
